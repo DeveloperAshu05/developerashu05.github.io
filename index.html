@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ashuTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="amit.css">
+    <script src="https://kit.fontawesome.com/30f7d8510c.js" crossorigin="anonymous"></script>
+    <script src="amit.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href=""><span>Home</span></a></li>
+                    <li><a href="#about">Abou<span>t</span></a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Con<span>t</span>ac<span>t</span></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Backend Developer & <span>T</span>ech En<span>t</span>husias<span>t</span></p> -->
+                <h1>Hi, I'm <span>Ashutosh</span> Mishra<br> From ashu<span>T</span>ech India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user (1).png" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle sub1">Abou<span>t</span> Me</h1>
+                    <p class="abt">Hi, I'm Ashutosh Mishra, I have pursuing my Diploma in Computer Science and Engineering
+                        from GLI
+                        Agra.<br>
+                        <br>
+                        As a diploma student, I worked as the WebDeveloper in my college project that project i
+                        join as a Python(django) developer and manage all the database & users request.
+                        I'm a Webdeveloper adapt at contributing to highly collaborative work environment, finding
+                        solutions and determining customer satisfaction.
+                        <br><br>
+                        When i have free time i would like to listening music, playing some outdoor
+                        games like cricket, vollyball etc and for up-to-date information, listen to tech podcast.<br>
+                        <b>To hire me as a WebDeveloper , Email me at developerashu05@gmail.com</b>.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educa<span>t</span>ion</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WebDeveloper</span><br>Python(Django) Developer</li>
+                            <!-- <li><span>Linux</span><br>Good knowledge in linux commands and tools</li> -->
+                            <!-- <li><span>Web Scripting</span><br>Web scripting using selenium module in Python</li> -->
+                            <li><span>Language & framework</span><br>PHP, Python, Django, Android</li>
+                            <li><span>Time Management</span><br>Time management using daily To-do List</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Minor Project</span><br>E-commerce based Web Application</li>
+                            <li><span>Major Project</span><br>Hotel Management System With Admin Dashboad</li>
+                            <!-- <li><span>CRUD Application</span><br>I build a crud app using php mysql javascript</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Diploma in 2023</span><br>3 Years of Diploma in computer science and engineering
+                            </li>
+                            <li><span>12th in 2020</span><br>Got 56% marks in 12th Board Exam with PCM from U.P. Board</li>
+                            <li><span>10th in 2018</span><br>81% marks in high school board exam from U.P. Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">In<span>t</span>eres<span>t</span> In</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I'm interested in front-end.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Cyber Security</h2>
+                    <p>I learn myself about what cyber security is and how it works</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-flag"></i>
+                    <h2>CTF</h2>
+                    <p>Capture the flag is online machine solving problem and i solve some easy machine on Try Hack Me
+                        and increasing my knowledge about Hacking</p>
+                    <a href="https://tryhackme.com/p/hero7079">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Hotel Mangement System</h3>
+                        <p>Using this site you can book any available room in the hotel and admin(Manager) confirm your
+                            room</p>
+                        <!-- <a href="https://github.com/Amitshen/HotelMangementSystem"><i
+                                class="fa-sharp fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>E-commerce based Webapplication Using Python with Django</h3>
+                        <p>Jane Daily Needs </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Coming Soon</h3>
+                        <p>Something exciting</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="cont">Con<span>t</span>ac<span>t</span> Me</h1>
+                    <p type="email"><i class="fa-solid fa-envelope"></i>developerashu05@gmail.com</p>
+                    <p><i type="tel" class="fa-solid fa-phone"></i>+91 9984364915</p>
+                    <div class="social-icons">
+                        <a href="#"></a>
+                        <a href="https://github.com/DevoloperAshu05" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ashutosh-mishra-07aa34223/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/DeveloperAshu05" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/attitudekilleraashutosh/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100010137545888" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="image/cv.pdf" class="btn btn2" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <h3 style="color: #ff0044;">You can suggest me anything here..</h3>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your valid email" required>
+                        <input type="tel" name="phone" required maxlength="10"
+                            placeholder="Enter your 10 digit phone no.">
+                        <textarea name="msg" rows="6" placeholder="your suggestion" required></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © <a href="">Ashutos<span>h</span></a>. Made with <i class="fa-solid fa-heart"></i> by
+                ashu<span>T</span>ech</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzbjKuPvQX_5BZJDKTEHlij3T1VW-5dF-DVqLnC6M1ftlRi4Se6aEzsCFFXxxp4fuzIPw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
